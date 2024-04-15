@@ -1,6 +1,6 @@
 using Tutorial5.Model;
 
-namespace Tutorial5.Database;
+namespace Tutorial5.Repository.Impl;
 
 public class AnimalRepository : IRepository<Animal>
 {

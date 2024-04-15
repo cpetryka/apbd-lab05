@@ -1,6 +1,7 @@
-using Tutorial5.Database;
 using Tutorial5.Endpoints.dto;
 using Tutorial5.Model;
+using Tutorial5.Repository;
+using Tutorial5.Repository.Impl;
 
 namespace Tutorial5.Endpoints;
 

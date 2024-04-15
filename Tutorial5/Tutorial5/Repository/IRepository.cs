@@ -1,4 +1,4 @@
-namespace Tutorial5.Database;
+namespace Tutorial5.Repository;
 
 public interface IRepository<T>
 {

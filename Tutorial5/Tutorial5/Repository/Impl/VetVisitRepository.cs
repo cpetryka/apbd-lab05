@@ -8,11 +8,11 @@ public class VetVisitRepository : IRepository<VetVisit>
 
     public static List<VetVisit> VetVisits = new List<VetVisit>()
     {
-        new VetVisit(1, new DateTime(2021, 10, 10), AnimalRepository.GetById(0), "Annual checkup", 50.0),
-        new VetVisit(2, new DateTime(2021, 10, 11), AnimalRepository.GetById(0), "Vaccination", 30.0),
-        new VetVisit(3, new DateTime(2021, 10, 12), AnimalRepository.GetById(1), "Annual checkup", 50.0),
-        new VetVisit(4, new DateTime(2021, 10, 13), AnimalRepository.GetById(1), "Vaccination", 30.0),
-        new VetVisit(5, new DateTime(2021, 10, 14), AnimalRepository.GetById(2), "Annual checkup", 50.0)
+        new VetVisit(1, new DateTime(2021, 10, 10), AnimalRepository.animals[0], "Annual checkup", 50.0),
+        new VetVisit(2, new DateTime(2021, 10, 11), AnimalRepository.animals[0], "Vaccination", 30.0),
+        new VetVisit(3, new DateTime(2021, 10, 12), AnimalRepository.animals[1], "Annual checkup", 50.0),
+        new VetVisit(4, new DateTime(2021, 10, 13), AnimalRepository.animals[1], "Vaccination", 30.0),
+        new VetVisit(5, new DateTime(2021, 10, 14), AnimalRepository.animals[2], "Annual checkup", 50.0)
     };
 
     public List<VetVisit> GetAll()

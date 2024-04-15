@@ -19,5 +19,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.MapAnimalEndpoints();
+app.MapVetVisitEndpoints();
 
 app.Run();
